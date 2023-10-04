@@ -39,11 +39,67 @@ video {
     padding: 20px;
 }
 
+#card-img {
+    width: 70px;
+    margin: 0px;
+}
+
 body {
     margin: 0;
     background-color: #F8F0E5;
 }
 
-.container {
+.row {
     position: relative;
+    top: 180px;
+    display: flex;
+    margin: 30px;
+}
+
+.column {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 40vh;
+    display: flexbox;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.recent {
+    position: relative;
+    margin-top: 230px;
+    margin-left: 50px;
+}
+
+.recent h2 {
+    color: black;
+    font-size: 40px;
+    display: flex;
+}
+
+.icon {
+    margin-top: 80px;
+}
+
+.bigbox {
+    margin: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #F8F0E5;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    background-color: #6C3428;
 }
